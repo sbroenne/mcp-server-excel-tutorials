@@ -2,53 +2,69 @@
 
 > Run and manage VBA macros
 
-## 🎯 Learning Objectives
+## 🎬 Watch the Video
 
-By the end of this tutorial, you will be able to:
+[![VBA Automation](https://img.shields.io/badge/▶_Watch_Video-YouTube-red?style=for-the-badge&logo=youtube)](https://youtube.com/watch?v=PLACEHOLDER)
+
+**Duration:** ~10 minutes
+
+---
+
+## 📋 What You'll Learn
+
 - List VBA modules in a workbook
 - Run existing VBA macros
 - View VBA code
 - Import VBA modules
 
-## ⏱️ Time Required
-
-Approximately 20 minutes
-
-## 📋 Prerequisites
+## 🎯 Prerequisites
 
 - Understanding of VBA basics (helpful but not required)
-- Excel with VBA trust settings configured (see below)
+- Excel with VBA trust settings configured
+
+## ⚠️ VBA Trust Settings Required
+
+Before running VBA macros, enable macro trust in Excel:
+
+1. Open Excel → **File** → **Options** → **Trust Center**
+2. Click **Trust Center Settings**
+3. Select **Macro Settings**
+4. Enable "Trust access to the VBA project object model"
+
+## 📝 Video Chapters
+
+| Timestamp | Topic |
+|-----------|-------|
+| 0:00 | Introduction |
+| 0:45 | VBA Trust Settings |
+| 2:00 | Listing VBA Modules |
+| 3:30 | Running a Macro |
+| 5:30 | Viewing VBA Code |
+| 7:00 | Importing Modules |
+| 9:00 | Summary |
+
+## 💬 Key Prompts
+
+### List Modules
+```
+List all VBA modules in this workbook
+```
+
+### Run Macro
+```
+Run the macro named "FormatReport"
+```
+
+### View Code
+```
+Show me the VBA code in the "Module1" module
+```
 
 ---
 
-## ⚠️ VBA Trust Settings
+## 🎉 Congratulations!
 
-Before running VBA macros, you need to enable macro trust in Excel:
+You've completed the core tutorial series! Check out the project tutorials for real-world applications:
 
-1. Open Excel
-2. Go to **File** → **Options** → **Trust Center**
-3. Click **Trust Center Settings**
-4. Select **Macro Settings**
-5. Enable "Trust access to the VBA project object model"
-
----
-
-## 🚧 Coming Soon
-
-This tutorial is under development. Check back soon!
-
-In the meantime, try these prompts:
-
-```
-List all VBA modules in the workbook
-```
-
-```
-Run the macro named "FormatReport" in the workbook
-```
-
----
-
-## ➡️ Resources
-
-- [VBA Trust Setup Guide](https://github.com/sbroenne/mcp-server-excel/blob/main/docs/VBA-SETUP.md)
+- **[Sales Dashboard Project →](../projects/sales-dashboard/)**
+- **[Data Pipeline Project →](../projects/data-pipeline/)**

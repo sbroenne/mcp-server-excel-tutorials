@@ -1,134 +1,65 @@
-# Contributing to MCP Server for Excel Tutorials
+# Contributing to MCP Server for Excel Video Tutorials
 
-Thank you for your interest in contributing! This guide will help you add or improve tutorials.
+Thank you for your interest in contributing! This guide explains how to suggest new video topics.
 
-## 📝 Tutorial Structure
+## 🎬 About These Videos
 
-Each tutorial should follow this structure:
+All tutorials are video-based, created using [HeyGen](https://heygen.com) AI avatars. Videos include:
+- AI avatar presenter for consistent narration
+- Screen recordings of VS Code and Excel
+- Live demonstrations of prompts and results
 
-```
-tutorials/XX-tutorial-name/
-├── README.md           # Main tutorial content
-├── assets/            # Images, diagrams
-│   └── screenshot.png
-└── files/             # Sample Excel files
-    └── sample.xlsx
-```
+## 💡 Suggesting New Tutorial Topics
 
-## ✍️ Writing Guidelines
+Have an idea for a new tutorial video? We'd love to hear it!
 
-### Tutorial README Template
+### Open an Issue
+
+1. Go to [Issues](https://github.com/sbroenne/mcp-server-excel-tutorials/issues)
+2. Click **New Issue**
+3. Use this template:
 
 ```markdown
-# Tutorial Title
+## Tutorial Suggestion: [Your Topic]
 
-> Brief one-line description of what you'll learn
+### What should this tutorial cover?
+[Describe the feature or workflow]
 
-## 🎯 Learning Objectives
+### Who is this for?
+[Beginner / Intermediate / Advanced]
 
-By the end of this tutorial, you will be able to:
-- Objective 1
-- Objective 2
-- Objective 3
+### Why is this valuable?
+[What problem does it solve?]
 
-## ⏱️ Time Required
-
-Approximately X minutes
-
-## 📋 Prerequisites
-
-- List any required tutorials to complete first
-- Required software or files
-
-## 📁 Files Used
-
-| File | Description |
-|------|-------------|
-| [sample.xlsx](files/sample.xlsx) | Description of the file |
-
-## 🚀 Steps
-
-### Step 1: Title
-
-Explanation of what we're doing and why.
-
-**Prompt to use:**
-```
-Your prompt here
+### Sample prompts to demonstrate:
+- Prompt 1
+- Prompt 2
+- Prompt 3
 ```
 
-**Expected result:**
-Description or screenshot of what should happen.
+## 🐛 Reporting Issues
 
-### Step 2: Title
+Found an error in a video or documentation?
 
-Continue with more steps...
+1. Note the video name and timestamp
+2. Open an issue describing the problem
+3. Include what you expected vs. what happened
 
-## ✅ Summary
+## 📝 Improving Documentation
 
-What you learned in this tutorial.
+The README files accompanying each video are open for contributions:
 
-## ➡️ Next Steps
+1. Fork this repository
+2. Edit the relevant `README.md` file
+3. Submit a pull request
 
-- Link to next tutorial
-- Additional resources
+### What You Can Improve
 
-## 🔧 Troubleshooting
-
-### Common Issue 1
-Solution...
-
-### Common Issue 2
-Solution...
-```
-
-### Style Guidelines
-
-1. **Be conversational** - Write as if you're teaching a friend
-2. **Show, don't tell** - Include screenshots and examples
-3. **Provide context** - Explain why, not just how
-4. **Test everything** - Verify all prompts work with current version
-5. **Keep it focused** - One concept per tutorial
-
-### Prompt Guidelines
-
-When writing prompts for users to try:
-- Make prompts self-contained (don't rely on previous context)
-- Use realistic scenarios
-- Include expected output descriptions
-- Note any variations that might occur
-
-## 🔄 Pull Request Process
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b tutorial/your-topic`
-3. **Write your tutorial** following the structure above
-4. **Test all prompts** with the latest MCP Server version
-5. **Add to the main README** if it's a new tutorial
-6. **Submit a pull request** with a clear description
-
-### PR Checklist
-
-- [ ] Tutorial follows the standard structure
-- [ ] All prompts tested and working
-- [ ] Sample files included (if applicable)
-- [ ] Screenshots/images are clear and helpful
-- [ ] Added to main README.md table
-- [ ] No spelling/grammar errors
-
-## 📸 Screenshots
-
-- Use PNG format
-- Highlight relevant areas
-- Keep file sizes reasonable (compress if needed)
-- Use consistent styling
-
-## 🏷️ Difficulty Levels
-
-- **Beginner**: No prior Excel automation experience required
-- **Intermediate**: Familiarity with Excel and basic prompts
-- **Advanced**: Complex scenarios, multiple tools, Power Query/DAX
+- Fix typos or unclear instructions
+- Add helpful prompts
+- Improve video chapter timestamps
+- Add links to related resources
 
 ## ❓ Questions?
 
-Open an issue if you have questions about contributing!
+Open an issue if you have questions!

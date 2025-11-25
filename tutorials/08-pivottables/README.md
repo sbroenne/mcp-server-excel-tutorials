@@ -2,45 +2,62 @@
 
 > Create interactive data summaries with PivotTables
 
-## 🎯 Learning Objectives
+## 🎬 Watch the Video
 
-By the end of this tutorial, you will be able to:
+[![PivotTables](https://img.shields.io/badge/▶_Watch_Video-YouTube-red?style=for-the-badge&logo=youtube)](https://youtube.com/watch?v=PLACEHOLDER)
+
+**Duration:** ~12 minutes
+
+---
+
+## 📋 What You'll Learn
+
 - Create PivotTables from data ranges and tables
 - Add row, column, and value fields
 - Apply filters and slicers
 - Change aggregation functions
 - Refresh PivotTable data
 
-## ⏱️ Time Required
+## 🎯 Prerequisites
 
-Approximately 20 minutes
+- Completed [Tutorial 4: Excel Tables](../04-excel-tables/)
 
-## 📋 Prerequisites
+## 📝 Video Chapters
 
-- Completed [Tutorial 4: Excel Tables](../04-excel-tables/README.md)
+| Timestamp | Topic |
+|-----------|-------|
+| 0:00 | Introduction to PivotTables |
+| 1:00 | Creating a PivotTable |
+| 3:00 | Adding Fields |
+| 5:30 | Changing Aggregation |
+| 7:00 | Filtering Data |
+| 9:00 | Refreshing PivotTables |
+| 11:00 | Summary |
+
+## 💬 Key Prompts
+
+### Create PivotTable
+```
+Create a PivotTable from the SalesData table on a new sheet
+```
+
+### Add Fields
+```
+Add "Region" as a row field and "Revenue" as a value field to the PivotTable
+```
+
+### Change Aggregation
+```
+Change the Revenue field to show Average instead of Sum
+```
+
+### Refresh
+```
+Refresh the PivotTable
+```
 
 ---
 
-## 🚧 Coming Soon
+## ➡️ Next Video
 
-This tutorial is under development. Check back soon!
-
-In the meantime, try these prompts:
-
-```
-Create a PivotTable from the data in Sheet1 of my workbook
-```
-
-```
-Add "Sales" as a value field and "Region" as a row field to the PivotTable
-```
-
-```
-List all PivotTables in the workbook
-```
-
----
-
-## ➡️ Next Steps
-
-**[Tutorial 9: Data Model & DAX →](../09-data-model-dax/README.md)**
+**[Tutorial 9: Data Model & DAX →](../09-data-model-dax/)**

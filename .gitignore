@@ -1,0 +1,29 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary Excel files
+~$*.xlsx
+~$*.xlsm
+*.tmp
+
+# Build outputs
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Dependencies
+node_modules/
+vendor/
